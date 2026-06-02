@@ -1106,6 +1106,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 197447671745473537, guid: d52721e0aa1f6904e87865166a9aa6b5, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 197447671745473537, guid: d52721e0aa1f6904e87865166a9aa6b5, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 197447671745473537, guid: d52721e0aa1f6904e87865166a9aa6b5, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 0.8790506
+      objectReference: {fileID: 0}
+    - target: {fileID: 197447671745473537, guid: d52721e0aa1f6904e87865166a9aa6b5, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 197447671745473537, guid: d52721e0aa1f6904e87865166a9aa6b5, type: 3}
+      propertyPath: m_Parameters.colorGradient.m_ColorSpace
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1359294387176121366, guid: d52721e0aa1f6904e87865166a9aa6b5, type: 3}
       propertyPath: m_Constraints
       value: 112
