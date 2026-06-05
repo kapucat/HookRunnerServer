@@ -152,9 +152,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02cd6ac5bfe3b2b4286b4a949834f6ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
+  groundAcceleration: 35
+  airAcceleration: 15
+  maxGroundControlSpeed: 18
+  maxAirControlSpeed: 35
+  groundFriction: 8
+  absoluteMaxSpeed: 50
   jumpPower: 7
   cameraTransform: {fileID: 2777851082222132037}
+  fallMultiplier: 2.5
+  lowJumpMultiplier: 0.5
+  airFriction: 0.8
 --- !u!114 &4997155417221751309
 MonoBehaviour:
   m_ObjectHideFlags: 0
