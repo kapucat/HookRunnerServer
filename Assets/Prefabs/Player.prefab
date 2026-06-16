@@ -177,6 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraTransform: {fileID: 2777851082222132037}
   lineRenderer: {fileID: 197447671745473537}
+  canUseGrapple: 1
   maxDistance: 60
   pullForce: 38
   swingForce: 28
@@ -329,6 +330,7 @@ GameObject:
   - component: {fileID: 3116553330514525186}
   - component: {fileID: 3272844904091193090}
   - component: {fileID: 3738771944632824788}
+  - component: {fileID: 4102082053263861042}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -424,3 +426,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerBody: {fileID: 5989062387874559475}
   mouseSensitivity: 500
+--- !u!114 &4102082053263861042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608020035276123761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f2aee245c6a024bbb7f26637469140, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetCamera: {fileID: 0}
+  normalFov: 60
+  boostFov: 75
+  changeSpeed: 8
