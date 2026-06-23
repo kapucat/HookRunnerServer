@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 197447671745473537}
   - component: {fileID: 4098514736263288169}
   - component: {fileID: 7295360466145318685}
+  - component: {fileID: 725179394868180045}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -342,6 +343,21 @@ MonoBehaviour:
   wallRunController: {fileID: 4098514736263288169}
   startThirdPerson: 0
   switchKey: 118
+--- !u!114 &725179394868180045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4169475492889326386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe08e9f45ff55cd44920da1f7fb083c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultRespawnPoint: {fileID: 0}
+  useCheckpointRotation: 0
+  respawnYOffset: 0.2
 --- !u!1 &5102465898694848396
 GameObject:
   m_ObjectHideFlags: 0

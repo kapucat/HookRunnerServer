@@ -1442,6 +1442,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1665939914}
   m_CullTransparentMesh: 1
+--- !u!1001 &1669336159
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3884601603598550383, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -231.90776
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884601603598550383, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884601603598550383, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884601603598550383, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884601603598550383, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884601603598550383, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884601603598550383, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884601603598550383, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884601603598550383, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3884601603598550383, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7385021525924220335, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
+      propertyPath: m_Name
+      value: GrappleWall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 40fac4ec2d1708b4785ecabdf184be93, type: 3}
 --- !u!1001 &1762522671
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1792,6 +1849,10 @@ PrefabInstance:
       propertyPath: maxGroundControlSpeed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 4098514736263288169, guid: d52721e0aa1f6904e87865166a9aa6b5, type: 3}
+      propertyPath: canUseWallRun
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4102082053263861042, guid: d52721e0aa1f6904e87865166a9aa6b5, type: 3}
       propertyPath: boostFov
       value: 100
@@ -1941,3 +2002,4 @@ SceneRoots:
   - {fileID: 1582306923}
   - {fileID: 474672931}
   - {fileID: 2118812139}
+  - {fileID: 1669336159}
