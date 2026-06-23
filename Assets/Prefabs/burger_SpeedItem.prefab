@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5964521786012110572}
   - component: {fileID: 3035882830807542430}
   - component: {fileID: -1399379414080764428}
+  - component: {fileID: -5406517689043363762}
   m_Layer: 0
   m_Name: burger_SpeedItem
   m_TagString: Untagged
@@ -123,3 +124,15 @@ MonoBehaviour:
   destroyOnUse: 1
   fovEffect: {fileID: 0}
   speedLineEffect: {fileID: 0}
+--- !u!114 &-5406517689043363762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9043480910952727310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59a1b9a54a56bf40af8eb17ca527456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
