@@ -4065,7 +4065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundAcceleration: 35
   airAcceleration: 15
-  maxGroundControlSpeed: 18
+  maxGroundControlSpeed: 7
   maxAirControlSpeed: 35
   groundFriction: 8
   absoluteMaxSpeed: 50
@@ -4282,7 +4282,9 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 4294967295
-  groundCheckExtraDistance: 0.15
+  groundCheckRadius: 0.25
+  groundCheckDistance: 0.3
+  drawDebug: 1
 --- !u!1 &6319891476192792035
 GameObject:
   m_ObjectHideFlags: 0
