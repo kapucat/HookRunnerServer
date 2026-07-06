@@ -457,9 +457,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4c574cd70b0ac43acb023558309d0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseUrl: http://localhost:8080
+  baseUrl: http://49.212.160.97:8080
   rankingListText: {fileID: 918932361}
   stageId: 1
+  maxDisplayCount: 5
 --- !u!4 &378058570
 Transform:
   m_ObjectHideFlags: 0
