@@ -1116,6 +1116,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.096
       objectReference: {fileID: 0}
+    - target: {fileID: 1145246350865187995, guid: cc7a578fd4bc7cb40b5e4fea3dfb5038, type: 3}
+      propertyPath: jumpPower
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1227131303089019159, guid: cc7a578fd4bc7cb40b5e4fea3dfb5038, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
