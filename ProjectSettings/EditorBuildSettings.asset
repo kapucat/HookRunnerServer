@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/\u5927\u898F\u6A21\u591A\u4EBA\u6570\u540C\u6642\u53C2\u52A0\u578B\u30AA\u30F3\u30E9\u30A4\u30F3\u30B2\u30FC\u30E0/MMO-Scenes/LoginScene.unity"
     guid: 3b78372cf92d0f040b6036b86981133e
+  - enabled: 1
+    path: "Assets/\u5927\u898F\u6A21\u591A\u4EBA\u6570\u540C\u6642\u53C2\u52A0\u578B\u30AA\u30F3\u30E9\u30A4\u30F3\u30B2\u30FC\u30E0/MMO-Scenes/AccountCreateScene.unity"
+    guid: f422f847803a724468ddf16e5113035b
   m_configObjects: {}
