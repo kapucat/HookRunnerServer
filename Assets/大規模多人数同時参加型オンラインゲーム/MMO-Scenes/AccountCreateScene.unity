@@ -2872,6 +2872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1938949648}
   - component: {fileID: 1938949649}
+  - component: {fileID: 1938949650}
   m_Layer: 5
   m_Name: AccountCreateManager
   m_TagString: Untagged
@@ -2914,6 +2915,21 @@ MonoBehaviour:
   passwordInputField: {fileID: 925115968}
   confirmPasswordInputField: {fileID: 394414527}
   messageText: {fileID: 173066316}
+  createButton: {fileID: 854040908}
+  accountApiClient: {fileID: 1938949650}
+--- !u!114 &1938949650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938949647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8670730a1dd8d604aa269080230a581d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  registerUrl: http://localhost:8080/api/accounts/register
 --- !u!1 &2056240149
 GameObject:
   m_ObjectHideFlags: 0
